@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 60px; /* Agregar un espacio adicional en la parte inferior */
+}
+
+/* Estilos CSS para el encabezado */
+header {
+    background-color: #2d2270;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centrar el contenido del encabezado */
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle; /* Alinea verticalmente el logo con el texto */
+    margin-right: 10px; /* Ajustar la separación entre el logo y el título */
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+h1 {
+    display: inline-block; /* Asegura que el título y el logo estén en la misma línea */
+    vertical-align: middle; /* Alinea verticalmente el texto con el logo */
+    margin: 0; /* Elimina los márgenes predeterminados del título */
+}
+
+/* Estilos CSS para el menú */
+nav {
+    background-color: #2d2270;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* Centrar el contenido del menú */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Estilos CSS para el pie de página */
+
+/* Estilos CSS para las entradas de artículo */
+/* Estilos CSS para las entradas de artículo */
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Borde sólido de 1px gris */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+
